@@ -4,7 +4,9 @@
   "description": "A pure javascript JPEG encoder and decoder",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testMatch=**/test/*.js"
+    "test": "jest --testMatch=**/test/*.js",
+    "start": "node service/main.js",
+    "acceptance": "node test-acceptance/run.js"
   },
   "repository": {
     "type": "git",
